@@ -7,7 +7,7 @@ def initialize(name)
   @name = name
   @roster = {}
 end
-binding.pry
+
 def roster
   @roster
 end
