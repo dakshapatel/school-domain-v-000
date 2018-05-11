@@ -23,8 +23,7 @@ def add_student(name, grade)
   binding.pry
     @roster[grade] != nil
     @roster[grade] << name
-end
-grade
+
 end
 
 def grade(grade)
