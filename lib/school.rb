@@ -1,8 +1,8 @@
 # code here!
-
+require 'pry'
 class School
 
-
+binding.pry
 def initialize(name)
   @name = name
   @roster = {}
