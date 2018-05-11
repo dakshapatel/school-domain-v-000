@@ -12,7 +12,7 @@ def roster
   @roster
 end
 
-
+binding.pry
 def add_student(name, grade)
     @roster[grade] = []
     @roster[grade] << name
