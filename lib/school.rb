@@ -13,17 +13,14 @@ def roster
 end
 
 
-def grade(grade)
-  @roster[grade]
-
-end
-
-
 def add_student(name, grade)
   binding.pry
-    @roster[grade] != nil
+  if @roster[grade] != nil
     @roster[grade] << name
+  else
+    @roster[grade] = [name]
 
+  end
 end
 
 def grade(grade)
