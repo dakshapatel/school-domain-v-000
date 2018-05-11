@@ -21,9 +21,10 @@ end
 
 def add_student(name, grade)
   binding.pry
-    @roster[grade] = []
-    @roster[grade] << all.name
-
+    @roster[grade] != nil
+    @roster[grade] << name
+end
+@roster[grade]
 end
 
 def grade(grade)
