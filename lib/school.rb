@@ -12,11 +12,18 @@ def roster
   @roster
 end
 
-binding.pry
+
+def grade(grade)
+  @roster[grade]
+
+end
+
+
 def add_student(name, grade)
+  binding.pry
     @roster[grade] = []
     @roster[grade] << name
-  
+
 end
 
 def grade(grade)
